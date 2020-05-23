@@ -2,13 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Navbar from './Components/Navbar/Navbar'
-import Banner from './Components/Banner/Banner'
+import Navbar from './Components/Navbar/Navbar';
+import Banner from './Components/Banner/Banner';
+import Card from './Components/Card/Card';
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Banner />
+      <div className="App-card"><Card /></div>
+      
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

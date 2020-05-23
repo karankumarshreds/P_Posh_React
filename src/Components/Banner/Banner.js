@@ -16,16 +16,19 @@ class Banner extends Component {
                 <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <h1>Yoga</h1>
                     <p>Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six Āstika schools of Hindu philosophical traditions.</p>
+                    <a>know more ... </a>
                 </div>
 
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <h1>Meditation</h1>
                     <p>Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state. </p>
+                    <a>know more ... </a>
                 </div>
 
                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <h1>Weight Loss</h1>
                     <p>"Workout" redirects here. For other uses, see Exercise (disambiguation) and Workout (disambiguation). Running in water. Weight training. Exercise is any bodily activity that enhances or maintains physical fitness and overall health ...</p>
+                    <a>know more ... </a>
                 </div>
             </div>
             </div>
