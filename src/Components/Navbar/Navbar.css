@@ -1,0 +1,27 @@
+.navbar{
+    /* background-color: rgb(246, 111, 70) !important;  */
+    background-color: rgb(0, 0, 0) !important; 
+    padding: 1rem 5rem !important;
+}
+.navbar a {
+    text-decoration: none !important;
+    color: white !important;
+}
+.navbar a:hover {
+    text-decoration: none !important;
+    color: rgb(255, 148, 116) !important;
+}
+.navbar button {
+    color: white !important;
+    outline: none;
+}
+.navbar button:hover {
+    background-color: rgb(251, 186, 175) !important;
+}
+.collapse li {
+    padding-left: 2rem !important;
+}
+.dropdown-menu a {
+    text-decoration: none !important;
+    color: black !important
+}
