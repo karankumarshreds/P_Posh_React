@@ -16,7 +16,7 @@ class Banner extends Component {
                 <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <h1>Yoga</h1>
                     <p>Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six Āstika schools of Hindu philosophical traditions.</p>
-                    <a>know more ... </a>
+                    <a><button className="btn">KNOW MORE</button></a>
                 </div>
 
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">

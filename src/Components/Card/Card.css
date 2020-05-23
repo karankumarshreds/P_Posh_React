@@ -17,6 +17,10 @@
 .Card-heading {
     width: 40%;
     padding-right: 5rem;
+    
+}  
+.Card-heading h1 {
+  color: rgb(255, 131, 109) ;
 }  
 @media only screen and (max-width: 890px) {
     .Card-heading{

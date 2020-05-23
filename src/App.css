@@ -1,6 +1,7 @@
 .App {
   user-select: none;
 }
-.App-card {
-  margin-top: 5rem !important;
+.App-pancham {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }

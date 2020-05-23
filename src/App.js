@@ -5,12 +5,15 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Banner from './Components/Banner/Banner';
 import Card from './Components/Card/Card';
+import Pancham from './Components/Pancham/Pancham';
+
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Banner />
-      <div className="App-card"><Card /></div>
+      <div className="App-pancham"><Pancham /></div>
+      {/* <div className="App-card"><Card /></div> */}
       
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
