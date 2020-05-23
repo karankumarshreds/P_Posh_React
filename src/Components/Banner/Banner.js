@@ -22,13 +22,13 @@ class Banner extends Component {
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <h1>Meditation</h1>
                     <p>Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state. </p>
-                    <a>know more ... </a>
+                    <a><button className="btn">KNOW MORE</button></a>
                 </div>
 
                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <h1>Weight Loss</h1>
                     <p>"Workout" redirects here. For other uses, see Exercise (disambiguation) and Workout (disambiguation). Running in water. Weight training. Exercise is any bodily activity that enhances or maintains physical fitness and overall health ...</p>
-                    <a>know more ... </a>
+                    <a><button className="btn">KNOW MORE</button></a>
                 </div>
             </div>
             </div>
