@@ -1,7 +1,8 @@
 .navbar{
     /* background-color: rgb(246, 111, 70) !important;  */
-    background-color: rgb(0, 0, 0) !important; 
+    background-color: rgb(255, 255, 255) !important; 
     padding: 1rem 5rem !important;
+    box-shadow: 6px 9px 11px -4px rgba(0,0,0,0.25);
 }
 .navbar img {
     width: 50px;
@@ -20,7 +21,8 @@
 }
 .navbar a {
     text-decoration: none !important;
-    color: white !important;
+    /* color: white !important; */
+    color: black !important;
 }
 .navbar a:hover {
     text-decoration: none !important;

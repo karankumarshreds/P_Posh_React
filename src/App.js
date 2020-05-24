@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Banner />
       <div className="App-pancham"><Pancham /></div>
-      {/* <div className="App-card"><Card /></div> */}
+      <div className="App-card"><Card /></div>
       
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

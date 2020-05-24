@@ -5,11 +5,15 @@ class Banner extends Component {
     render() {
         return (
             <div className="Banner">
+                <div className="Banner-heading">
+                <h3>Get your Panchtattva Analysis</h3>
+                </div>
             <nav className="Banner-nav">
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Yoga</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Meditation</a>
-                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Weight Loss</a>
+                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Weight Loss</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Stress</a>
+                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Chronic Ailments</a>
+                    <a class="nav-item nav-link" id="nav-address-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-address" aria-selected="false">Lack of Purpose</a>
                 </div>
             </nav>
             <div className="tab-content" id="nav-tabContent">
@@ -28,6 +32,12 @@ class Banner extends Component {
                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <h1>Weight Loss</h1>
                     <p>"Workout" redirects here. For other uses, see Exercise (disambiguation) and Workout (disambiguation). Running in water. Weight training. Exercise is any bodily activity that enhances or maintains physical fitness and overall health ...</p>
+                    <a><button className="btn">KNOW MORE</button></a>
+                </div>
+
+                <div className="tab-pane fade" id="nav-address" role="tabpanel" aria-labelledby="nav-address-tab">
+                    <h1>Weight Loss</h1>
+                    <p>"Something comes here</p>
                     <a><button className="btn">KNOW MORE</button></a>
                 </div>
             </div>
